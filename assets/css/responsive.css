@@ -1,0 +1,95 @@
+/* Mobile responsive */
+@media (max-width: 750px) {
+  #header {
+    overflow: hidden;
+  }
+  #nav li:first-child {
+    display: inline-block;
+  }
+  #nav,
+  #nav li {
+    display: block;
+  }
+  #nav li > a {
+    display: block;
+    text-align: left;
+  }
+  #nav .subNav {
+    position: initial;
+  }
+  #nav .subNav li {
+    background-color: #000;
+    opacity: 0.8;
+  }
+  #nav .subNav li a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    color: #fff;
+  }
+  #search-btn {
+    display: none;
+  }
+  #menu-btn {
+    display: block;
+  }
+  #menu-btn:hover {
+    color: #000;
+    background-color: #ccc;
+  }
+  #slider .slogant {
+    display: none;
+  }
+  #content .member-about {
+    display: block;
+  }
+  #content .info {
+    width: auto;
+  }
+  #content .tour-date {
+    height: auto;
+  }
+  #content .ticket-order {
+    margin: 42px 8px 0;
+    padding-bottom: 120px;
+  }
+  #content .sold-list {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  #content .ticket-order .ticket-info {
+    width: 100%;
+    margin-top: 16px;
+  }
+  #content .buy-ticket{
+    width: 92%;
+  }
+  #content .contact-us {
+    height: auto;
+  }
+  #content .contact-info {
+    width: 100%;
+    padding-bottom: 16px;
+  }
+  #contact .contact-respond {
+    padding-top: 0;
+    width: 100%;
+    margin-bottom: 64px;
+  }
+  #contact .contact-respond input {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+#content .contact-respond .send-btn{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+  #content .personal-info input:last-child {
+    position: unset;
+  }
+  #content .message input {
+    width: 100%;
+    margin: 0;
+  }
+}
